@@ -19,7 +19,7 @@ export function AboutButton() {
 export function ChatButton() {
   return (
     <button>
-      Chat
+      <span className="cursor-pointer">Chat</span>
     </button>
   )
 }
@@ -27,7 +27,7 @@ export function ChatButton() {
 export function MenuButton() {
   return (
     <button>
-      Menu
+      <span className="cursor-pointer">Menu</span>
     </button>
   )
 }
