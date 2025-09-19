@@ -4,7 +4,19 @@ import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout>
-  <img src="../assets/astro.svg" width="400px" height="400px"/>
+  <div class="flex justify-evenly items-center h-screen">
+    <!-- First block -->
+    <div class="flex flex-col items-center transform transition duration-300 hover:scale-90 cursor-pointer">
+      <img src="/folder.png" class="h-[400px]" alt="Folder" />
+      <span class="text-5xl font-bold">Project</span>
+      <span class="text-2xl italic">Details</span>
+    </div>
+
+    <!-- Second block -->
+    <div class="flex flex-col items-center transform transition duration-300 hover:scale-90 cursor-pointer">
+      <img src="/shelf.png" class="h-[400px]" alt="Books" />
+      <span class="text-5xl font-bold">Product</span>
+      <span class="text-2xl">Catalog</span>
+    </div>
+  </div>
 </Layout>
-
-
