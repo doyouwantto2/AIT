@@ -1,0 +1,25 @@
+---
+import { AstroButton, AboutButton, ChatButton, MenuButton } from './../components/dynamic/NavBar.tsx'
+---
+
+<header>
+  <nav>
+    <ul class="fixed grid grid-cols-12 w-full h-15 items-stretch text-center bg-black text-white font-bold">
+      <li class="col-start-1 col-end-3 h-full flex items-center justify-center hover:text-orange-500">
+        <AstroButton client:load/>
+      </li>
+
+      <li class="col-start-6 col-end-8 h-full flex items-center justify-center hover:text-orange-500">
+        <MenuButton client:load/>
+      </li>
+
+      <li class="col-start-11 h-full flex items-center justify-center hover:text-orange-500">
+        <ChatButton client:load/>
+      </li>
+
+      <li class="col-start-12 h-full flex items-center justify-center hover:text-orange-500">
+        <AboutButton client:load/>  
+      </li>
+    </ul>
+  </nav>
+</header>
