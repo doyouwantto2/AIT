@@ -1,0 +1,1 @@
+fn(i32) -> impl std::future::Future<Output = std::string::String> {path_route}: axum::handler::Handler<_, _>

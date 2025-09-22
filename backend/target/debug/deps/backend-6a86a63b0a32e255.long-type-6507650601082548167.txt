@@ -1,0 +1,2 @@
+fn(axum::extract::Query<Query_struct>) -> impl std::future::Future<Output = axum::Json<Query_struct>> {query_route}
+fn(axum::extract::Query<Query_struct>) -> impl std::future::Future<Output = axum::Json<Query_struct>> {query_route}: axum::handler::Handler<_, _>
