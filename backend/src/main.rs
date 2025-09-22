@@ -20,6 +20,8 @@ async fn query_route(Query(query): Query<Query_struct>) -> Json<Query_struct> {
     Json(query)
 }
 
+async fn header_route() {}
+
 #[tokio::main]
 async fn main() {
     let listener = TcpListener::bind("127.0.0.1:3000").await.unwrap();
