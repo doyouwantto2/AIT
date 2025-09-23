@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Error","RoundingStrategy"],"mod":["prelude","str"],"struct":["Decimal"],"trait":["MathematicalOps"],"type":["Result"]};
