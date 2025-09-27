@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["rejection"],"struct":["GraphQL","GraphQLBatchRequest","GraphQLProtocol","GraphQLRequest","GraphQLResponse","GraphQLSubscription","GraphQLWebSocket"]};

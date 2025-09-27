@@ -1,0 +1,2 @@
+fn(axum::Json<Request>) -> impl std::future::Future<Output = std::string::String> {header_queries}
+fn(axum::Json<Request>) -> impl std::future::Future<Output = std::string::String> {header_queries}: axum::handler::Handler<_, _>

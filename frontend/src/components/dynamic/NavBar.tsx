@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { ApolloClient, InMemoryCache, HttpLink } from "@apollo/client";
 
 export function AstroButton() {
   return (
@@ -30,6 +29,23 @@ export function MenuButton() {
     <button>
       <span className="cursor-pointer">Menu</span>
     </button>
+  )
+}
+
+export function FetchAbout() {
+  const [message, setMessage] = useState("")
+
+  useEffect(() => {
+    fetch("/api")
+      .then((res) => res.text())
+      .then((data) => setMessage(data))
+      .catch((err) => console.error("Fetch error:", err))
+  })
+
+  return (
+    <div>
+      {message}
+    </div>
   )
 }
 

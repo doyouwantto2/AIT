@@ -1,0 +1,1 @@
+fn({type error}) -> impl std::future::Future<Output = {type error}> {header_queries}: axum::handler::Handler<_, _>

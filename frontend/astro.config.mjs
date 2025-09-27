@@ -8,7 +8,6 @@ export default defineConfig({
   vite: {
     plugins: [
       tailwindcss(),
-      graphqlLoader(),
     ],
     server: {
       proxy: {

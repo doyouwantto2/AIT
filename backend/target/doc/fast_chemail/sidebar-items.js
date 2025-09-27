@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["ParseError"],"fn":["is_valid_email","parse_email"]};

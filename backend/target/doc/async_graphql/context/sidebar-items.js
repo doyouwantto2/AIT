@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["QueryPathSegment"],"struct":["ContextBase","Data","Parents","QueryPathNode","SelectionField"],"trait":["DataContext"],"type":["Context","ContextDirective","ContextSelectionSet"]};
